@@ -1,0 +1,25 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
+html {
+    background-color: rgb(64, 66, 95);    
+}
+
+.wrapper {
+    margin: 10px;
+}
+
+.label {
+    color: white;
+}
+.file-label {
+    color: white;
+}
+.file-cta {
+    background: none;
+}
+
+#imageBucket{
+    height: 200px;
+    width: 100%;
+    background: grey;
+}

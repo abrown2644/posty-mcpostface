@@ -1,0 +1,67 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jposter</title>
+    <script defer src="./render.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="file has-name is-right">
+                <label class="file-label">
+                    <input class="file-input" type="file" name="resume">
+                    <span class="file-cta">
+                        <span class="file-label">
+                            Add an image
+                        </span>
+                    </span>
+                    <span class="file-name">
+                        <b style="color: rgb(26, 245, 26)">+</b>
+                    </span>
+                </label>
+            </div>
+
+            <div class="field">
+                <label class="label">Title</label>
+                <div class="control">
+                    <input id="title" class="input" type="text" placeholder="">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Excerpt</label>
+                <div class="control">
+                    <textarea id="excerpt" class="textarea" placeholder="" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Body</label>
+                <div class="control">
+                    <textarea id="body" class="textarea" placeholder="" rows="9"></textarea>
+                </div>
+            </div>
+
+            <div class="field is-grouped">
+                <div class="control">
+                    <button id="savePost" class="button is-success">Save</button>
+                </div>
+                <div class="control">
+                    <button id="clearPost" class="button is-warning is-outlined">Clear</button>
+                </div>
+            </div>
+            <!-- <div id="imageBucket">
+
+            </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
