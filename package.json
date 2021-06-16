@@ -1,7 +1,7 @@
 {
-  "name": "jposter",
+  "name": "posty-mcpostface",
   "version": "1.0.0",
-  "description": "make jekyll posts from text",
+  "description": "make jekyll posts",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -30,7 +30,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "jposter"
+            "name": "posty mcpostface"
           }
         },
         {
