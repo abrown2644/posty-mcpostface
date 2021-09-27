@@ -1,7 +1,7 @@
 {
   "name": "posty-mcpostface",
   "version": "1.0.0",
-  "description": "make jekyll posts",
+  "description": "A UI to create markdown posts",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -30,7 +30,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "posty mcpostface"
+            "name": "posty-mcpostface"
           }
         },
         {
