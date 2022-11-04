@@ -12,13 +12,9 @@ I created this Electron app as a quality of life improvement for my work team. W
 
 Eventually my goal is for this app to be used with any SSG (static site generator) or blog site that sources it content from markdown files.
 
-Anyways, I reccomend you install Git Kraken if you truely want a codeless approach.
+Anyways, I recommend you install Git Kraken if you truely want a codeless approach.
 
 - clone the repo (I will provide a download link to install the app one of these days.)
-
-- add deps "npm install"
-
-- to start "npm start"
 
 - to build (electron-forge) "npm run make"
 
